@@ -1,0 +1,119 @@
+﻿Build started 2014/9/22 19:52:04.
+     1>Project "F:\publicdata\builder\vs2010\vm\vm.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\lua.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\lua.unsuccessfulbuild".
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\publicdata\sources\common\include /ZI /nologo /W3 /WX- /Od /Oy- /D LITTLE_ENDIAN_BYTE_ALIGNED /D HAS_LUA /D VM_LUA /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LUA_EXPORTS /D LUA_BUILD_AS_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt "..\..\..\sources\3rdparty\lua-dev\lapi.c" "..\..\..\sources\3rdparty\lua-dev\lauxlib.c" "..\..\..\sources\3rdparty\lua-dev\lbaselib.c" "..\..\..\sources\3rdparty\lua-dev\lcode.c" "..\..\..\sources\3rdparty\lua-dev\ldblib.c" "..\..\..\sources\3rdparty\lua-dev\ldebug.c" "..\..\..\sources\3rdparty\lua-dev\ldo.c" "..\..\..\sources\3rdparty\lua-dev\ldump.c" "..\..\..\sources\3rdparty\lua-dev\lfunc.c" "..\..\..\sources\3rdparty\lua-dev\lgc.c" "..\..\..\sources\3rdparty\lua-dev\linit.c" "..\..\..\sources\3rdparty\lua-dev\liolib.c" "..\..\..\sources\3rdparty\lua-dev\llex.c" "..\..\..\sources\3rdparty\lua-dev\lmathlib.c" "..\..\..\sources\3rdparty\lua-dev\lmem.c" "..\..\..\sources\3rdparty\lua-dev\loadlib.c" "..\..\..\sources\3rdparty\lua-dev\lobject.c" "..\..\..\sources\3rdparty\lua-dev\lopcodes.c" "..\..\..\sources\3rdparty\lua-dev\loslib.c" "..\..\..\sources\3rdparty\lua-dev\lparser.c" "..\..\..\sources\3rdparty\lua-dev\lstate.c" "..\..\..\sources\3rdparty\lua-dev\lstring.c" "..\..\..\sources\3rdparty\lua-dev\lstrlib.c" "..\..\..\sources\3rdparty\lua-dev\ltable.c" "..\..\..\sources\3rdparty\lua-dev\ltablib.c" "..\..\..\sources\3rdparty\lua-dev\ltm.c" "..\..\..\sources\3rdparty\lua-dev\lundump.c" "..\..\..\sources\3rdparty\lua-dev\lvm.c" "..\..\..\sources\3rdparty\lua-dev\lzio.c"
+         lzio.c
+         lvm.c
+         lundump.c
+         ltm.c
+         ltablib.c
+         ltable.c
+         lstrlib.c
+         lstring.c
+         lstate.c
+         lparser.c
+         loslib.c
+         lopcodes.c
+         lobject.c
+         loadlib.c
+         lmem.c
+         lmathlib.c
+         llex.c
+         liolib.c
+         linit.c
+         lgc.c
+         Generating Code...
+         Compiling...
+         lfunc.c
+         ldump.c
+         ldo.c
+         ldebug.c
+         ldblib.c
+         lcode.c
+         lbaselib.c
+         lauxlib.c
+         lapi.c
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\lua.dll.embed.manifest.res" Debug\lua_manifest.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\publicdata\builder\vs2010\Debug\lua.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lua.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\publicdata\builder\vs2010\Debug\lua.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\publicdata\builder\vs2010\Debug\lua.lib" /MACHINE:X86 /DLL Debug\lua.dll.embed.manifest.res
+         Debug\lapi.obj
+         Debug\lauxlib.obj
+         Debug\lbaselib.obj
+         Debug\lcode.obj
+         Debug\ldblib.obj
+         Debug\ldebug.obj
+         Debug\ldo.obj
+         Debug\ldump.obj
+         Debug\lfunc.obj
+         Debug\lgc.obj
+         Debug\linit.obj
+         Debug\liolib.obj
+         Debug\llex.obj
+         Debug\lmathlib.obj
+         Debug\lmem.obj
+         Debug\loadlib.obj
+         Debug\lobject.obj
+         Debug\lopcodes.obj
+         Debug\loslib.obj
+         Debug\lparser.obj
+         Debug\lstate.obj
+         Debug\lstring.obj
+         Debug\lstrlib.obj
+         Debug\ltable.obj
+         Debug\ltablib.obj
+         Debug\ltm.obj
+         Debug\lundump.obj
+         Debug\lvm.obj
+         Debug\lzio.obj
+            Creating library F:\publicdata\builder\vs2010\Debug\lua.lib and object F:\publicdata\builder\vs2010\Debug\lua.exp
+       Manifest:
+         Deleting file "Debug\lua.dll.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\lua.dll.embed.manifest" /manifest Debug\lua.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\lua.dll.embed.manifest.res" Debug\lua_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\publicdata\builder\vs2010\Debug\lua.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lua.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\publicdata\builder\vs2010\Debug\lua.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\publicdata\builder\vs2010\Debug\lua.lib" /MACHINE:X86 /DLL Debug\lua.dll.embed.manifest.res
+         Debug\lapi.obj
+         Debug\lauxlib.obj
+         Debug\lbaselib.obj
+         Debug\lcode.obj
+         Debug\ldblib.obj
+         Debug\ldebug.obj
+         Debug\ldo.obj
+         Debug\ldump.obj
+         Debug\lfunc.obj
+         Debug\lgc.obj
+         Debug\linit.obj
+         Debug\liolib.obj
+         Debug\llex.obj
+         Debug\lmathlib.obj
+         Debug\lmem.obj
+         Debug\loadlib.obj
+         Debug\lobject.obj
+         Debug\lopcodes.obj
+         Debug\loslib.obj
+         Debug\lparser.obj
+         Debug\lstate.obj
+         Debug\lstring.obj
+         Debug\lstrlib.obj
+         Debug\ltable.obj
+         Debug\ltablib.obj
+         Debug\ltm.obj
+         Debug\lundump.obj
+         Debug\lvm.obj
+         Debug\lzio.obj
+            Creating library F:\publicdata\builder\vs2010\Debug\lua.lib and object F:\publicdata\builder\vs2010\Debug\lua.exp
+         vm.vcxproj -> F:\publicdata\builder\vs2010\Debug\lua.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\lua.unsuccessfulbuild".
+         Touching "Debug\lua.lastbuildstate".
+     1>Done Building Project "F:\publicdata\builder\vs2010\vm\vm.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.40

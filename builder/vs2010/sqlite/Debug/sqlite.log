@@ -1,0 +1,23 @@
+﻿Build started 2014/9/23 19:07:43.
+     1>Project "F:\publicdata\builder\vs2010\sqlite\sqlite.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\sqlite.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\sqlite.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\sources\sqlite\shell.c ..\..\..\sources\sqlite\sqlite3.c
+         sqlite3.c
+         shell.c
+         Generating Code...
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\publicdata\builder\vs2010\Debug\sqlite.lib" /NOLOGO Debug\shell.obj
+         Debug\sqlite3.obj
+         sqlite.vcxproj -> F:\publicdata\builder\vs2010\Debug\sqlite.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\sqlite.unsuccessfulbuild".
+         Touching "Debug\sqlite.lastbuildstate".
+     1>Done Building Project "F:\publicdata\builder\vs2010\sqlite\sqlite.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05

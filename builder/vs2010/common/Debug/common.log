@@ -1,0 +1,74 @@
+﻿Build started 2014/9/22 20:24:33.
+     1>Project "F:\publicdata\builder\vs2010\common\common.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\common.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\common.unsuccessfulbuild".
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\publicdata\sources\common\include /I"C:\OpenSSL-Win32\include" /IF:\publicdata\sources\3rdparty\tinyxml /I"F:\publicdata\sources\3rdparty\lua-dev" /ZI /nologo /W3 /WX- /Od /Oy- /D LITTLE_ENDIAN_BYTE_ALIGNED /D HAS_LUA /D VM_LUA /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D COMMON_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4251 /wd4800 /wd4996 /analyze- /errorReport:prompt ..\..\..\sources\3rdparty\tinyxml\tinyxml.cpp ..\..\..\sources\3rdparty\tinyxml\tinyxmlerror.cpp ..\..\..\sources\3rdparty\tinyxml\tinyxmlparser.cpp ..\..\..\sources\common\src\platform\baseplatform.cpp ..\..\..\sources\common\src\platform\windows\strncasecmp.cpp ..\..\..\sources\common\src\platform\windows\strptime.cpp ..\..\..\sources\common\src\platform\windows\timegm.cpp ..\..\..\sources\common\src\platform\windows\win32platform.cpp ..\..\..\sources\common\src\utils\buffering\iobuffer.cpp ..\..\..\sources\common\src\utils\logging\baseloglocation.cpp ..\..\..\sources\common\src\utils\logging\consoleloglocation.cpp ..\..\..\sources\common\src\utils\logging\fileloglocation.cpp ..\..\..\sources\common\src\utils\logging\formatter.cpp ..\..\..\sources\common\src\utils\logging\logcatloglocation.cpp ..\..\..\sources\common\src\utils\logging\logeventfactory.cpp ..\..\..\sources\common\src\utils\logging\logger.cpp ..\..\..\sources\common\src\utils\logging\syslogloglocation.cpp ..\..\..\sources\common\src\utils\lua\luautils.cpp ..\..\..\sources\common\src\utils\mempool\mempool.cpp ..\..\..\sources\common\src\utils\misc\crypto.cpp ..\..\..\sources\common\src\utils\misc\file.cpp ..\..\..\sources\common\src\utils\misc\mmapfile.cpp ..\..\..\sources\common\src\utils\misc\timersmanager.cpp ..\..\..\sources\common\src\utils\misc\uri.cpp ..\..\..\sources\common\src\utils\misc\variant.cpp
+         variant.cpp
+         uri.cpp
+         timersmanager.cpp
+         mmapfile.cpp
+         file.cpp
+         crypto.cpp
+         mempool.cpp
+         luautils.cpp
+         syslogloglocation.cpp
+         logger.cpp
+         logeventfactory.cpp
+         logcatloglocation.cpp
+         formatter.cpp
+         fileloglocation.cpp
+         consoleloglocation.cpp
+         baseloglocation.cpp
+         iobuffer.cpp
+         win32platform.cpp
+         timegm.cpp
+         strptime.cpp
+         Generating Code...
+         Compiling...
+         strncasecmp.cpp
+         baseplatform.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         Generating Code...
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\publicdata\builder\vs2010\Debug\common.dll" /NOLOGO /LIBPATH:"C:\OpenSSL-Win32\lib" /LIBPATH:F:\publicdata\builder\vs2010\Debug ssleay32.lib libeay32.lib Shlwapi.lib ws2_32.lib lua.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\common.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\publicdata\builder\vs2010\Debug\common.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\publicdata\builder\vs2010\Debug\common.lib" /MACHINE:X86 /DLL Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\baseplatform.obj
+         Debug\strncasecmp.obj
+         Debug\strptime.obj
+         Debug\timegm.obj
+         Debug\win32platform.obj
+         Debug\iobuffer.obj
+         Debug\baseloglocation.obj
+         Debug\consoleloglocation.obj
+         Debug\fileloglocation.obj
+         Debug\formatter.obj
+         Debug\logcatloglocation.obj
+         Debug\logeventfactory.obj
+         Debug\logger.obj
+         Debug\syslogloglocation.obj
+         Debug\luautils.obj
+         Debug\mempool.obj
+         Debug\crypto.obj
+         Debug\file.obj
+         Debug\mmapfile.obj
+         Debug\timersmanager.obj
+         Debug\uri.obj
+         Debug\variant.obj
+            Creating library F:\publicdata\builder\vs2010\Debug\common.lib and object F:\publicdata\builder\vs2010\Debug\common.exp
+         common.vcxproj -> F:\publicdata\builder\vs2010\Debug\common.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\publicdata\builder\vs2010\Debug\common.dll;#2" /manifest Debug\common.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\common.unsuccessfulbuild".
+         Touching "Debug\common.lastbuildstate".
+     1>Done Building Project "F:\publicdata\builder\vs2010\common\common.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.86
